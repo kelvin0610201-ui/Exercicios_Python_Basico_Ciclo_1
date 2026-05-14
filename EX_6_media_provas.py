@@ -21,3 +21,19 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+
+print("| ______________________________ |")
+print("| SISTEMA DE PROVAS")
+print("| ______________________________ |")
+print(f"| Nome do aluno: {nome}")
+print(f"| Nota da primeira prova: {nota1}")
+print(f"| Nota da segunda prova: {nota2}")
+print(f"| Nota da terceira prova: {nota3}")
+print("| ______________________________ |")
+print(f"| Aluno: {nome} ")
+print(f"| Média: {media:.2f}")
+if media >= 7:
+    print("| Aluno aprovado")
+else:
+    print("| Aluno reprovado")
+print("| ______________________________ |")
